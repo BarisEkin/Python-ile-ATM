@@ -19,7 +19,7 @@ class ATM:
         self.dongu=True
 
     def giriskontrol(self):
-        Hak:2
+        Hak=2
         for i in range(0,3):
             Sifre=input("Lütfen 4 Haneli Şifrenizi Giriniz:")
             if Sifre==TakılanKart.kartsifre:
